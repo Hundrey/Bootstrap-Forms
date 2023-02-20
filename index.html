@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Application Form</title>
+</head>
+<body>
+        <div class="headr">
+            <img id="img1" src="Logo.png" alt="logo" width="60">
+            <h1>Application Form</h1>
+           
+        </div>
+    <div class="container my-5" >
+        
+        <form class="form-control needs-validation" novalidate style="font-weight:bold">
+            
+            <div class="row">
+                <div class="col-sm-3">
+                    <label for="validationun1" class="form-label">First Name:</label>
+                    <input type="text" id="validationun1" placeholder="First name here" class="form-control" required>
+                <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+        
+                <div class="col-sm-3">
+                    <label for="floatingInput" class="form-label">Middle Name:</label>
+                    <input type="text" id="floatingInput" placeholder="Middle name here" class="form-control" required>
+                <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-sm-3">
+                    <label for="floatingInput" class="form-label">Last Name:</label>
+                    <input type="text" id="floatingInput" placeholder="Last name here" class="form-control" required>
+                <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-sm-1">
+                    <label class="form-label">Suffix:</label>
+                    <select class="form-control">
+                        <option value=""></option>
+                        <option value="Jr.">Jr.</option>
+                        <option value="Sr.">Sr.</option>
+                        <option value="I">I</option>
+                        <option value="II">II</option>
+                        <option value="III">III</option>
+                        <option value="IV">IV</option>
+                        <option value="V">V</option>    
+                    </select>
+                
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <label for="floatingInput" class="form-label">Email:</label>
+                    <input type="email" id="floatingInput" class="form-control" placeholder="Email here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Contact No.:</label>
+                    <input type="number" id="floatingInput" class="form-control" placeholder="Contact number here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-5">
+                    <label for="pos" class="form-label">What position are you applying for?</label>
+                    <select class="form-select" required>
+                        <option value=""></option>
+                        <option value="Project Manager">Project Manager</option>
+                        <option value="">Java Developer</option>
+                        <option value="">Full Stack Web Developer</option>
+                        <option value="">QA Analyst</option>
+                        <option value="">Data Analyst</option>
+                    </select>
+                    <div class="invalid-feedback">Please choose one</div>
+                </div>
+                <div class="col-2">
+                    <label for="floatingInput" class="form-label">Available date:</label>
+                    <input type="date" id="floatingInput" class="form-control" required>
+                    <div class="invalid-feedback">Please choose a date</div>
+                </div>
+                <div class="col-2">
+                    <label for="floatingInput" class="form-label">Available time:</label>
+                    <input type="time" id="floatingInput" class="form-control" required>
+                    <div class="invalid-feedback">Please choose a time</div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <p>What is your current employment status?</p>
+                <div class="col-sm-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">Employed</label>
+                </div>
+                <div class="col-sm-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">Unemployed</label>
+                </div>  
+                <div class="col-sm-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">Self-employed</label>
+                </div>
+                <div class="col-sm-2">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" required>
+                    <label class="form-check-label" for="flexRadioDefault1">Student</label>
+                </div>
+                <div class="invalid-feedback">Please choose one</div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Please provide your resume link</label>
+                    <input type="url" id="floatingInput" class="form-control" placeholder="Link here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Please upload your resume</label>
+                    <input type="file" id="floatingInput" class="form-control" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+            </div>
+            <br>
+            
+            <div class="row">
+                <p>Do you have reference?</p>
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Reference Name:</label>
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Full name here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Reference Email:</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Reference Name:</label>
+                    <input type="text" class="form-control" id="floatingInput" placeholder="Full name here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+                <div class="col-4">
+                    <label for="floatingInput" class="form-label">Reference Email:</label>
+                    <input type="email" class="form-control" id="floatingInput" placeholder="Email here" required>
+                    <div class="invalid-feedback">Please fill out this field</div>
+                </div>
+            </div>
+            <hr>
+            <br>
+            <div>
+                <button type="reset" class="btn btn-outline-primary">Reset</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            <br>
+        </form>
+    </div>
+
+<script>
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+</script>
+
+</body>
+</html>
